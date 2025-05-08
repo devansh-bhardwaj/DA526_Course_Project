@@ -21,15 +21,9 @@ This repository contains a Streamlit-based application with PyTorch dependencies
 
 3. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install torch torchvision streamlit numpy pandas matplotlib
    ```
-   *Note: If requirements.txt isn't provided, see the "Alternative Installation" section below.*
-
-### Alternative Installation (if requirements.txt is missing)
-
-```bash
-pip install torch torchvision streamlit numpy pandas matplotlib
-```
+4. Download model checkpoints and place them in the same folder from the following [Google Drive Link](https://drive.google.com/drive/folders/1ipepDhsU1La7VnexyJLoyJFNERUzJBAL?usp=sharing)
 
 ## Running the Project
 
