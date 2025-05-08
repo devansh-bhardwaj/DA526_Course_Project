@@ -48,9 +48,3 @@ The members of team Kniffox are listed below :
 * Aditya Suryawanshi - 210150004
 * Pokala Rithuraj - 210150015
 * Thanish Bolla - 210150019
-
-[Specify license if available]
-
----
-
-*Note: The exact functionality of the application isn't specified in the provided information. Please update this README with specific details about your project's purpose and features.*
