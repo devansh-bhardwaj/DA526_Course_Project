@@ -1,14 +1,9 @@
-# DAS26 Course Project
+# DA526 Course Project
 
 ## Project Overview
 This repository contains a Streamlit-based application with PyTorch dependencies for face-demasking with Partial Convolutions. The project includes model comparison utilities, custom PyTorch models, and interactive visualization capabilities.
 
 ## Installation
-
-### Prerequisites
-- Python 3.7 or higher
-- pip package manager
-- (Optional) conda for virtual environment management
 
 ### Recommended Installation Steps
 
@@ -53,12 +48,6 @@ The members of team Kniffox are listed below :
 * Aditya Suryawanshi - 210150004
 * Pokala Rithuraj - 210150015
 * Thanish Bolla - 210150019
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
 
 [Specify license if available]
 
