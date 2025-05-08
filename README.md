@@ -44,7 +44,7 @@ This will start the application and automatically open it in your default web br
 The members of team Kniffox are listed below :
 * Palthiya Laanith Chouhan - 210150014
 * Devansh Bhardwaj - 210150010
-* Harsh Raj - 210150012
+* Harsh Raj - 210150011
 * Aditya Suryawanshi - 210150004
 * Pokala Rithuraj - 210150015
 * Thanish Bolla - 210150019
