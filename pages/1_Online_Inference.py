@@ -28,19 +28,19 @@ def denorm(t):
 @st.cache_resource
 def load_models():
     mask_predictor = BinaryUNet(in_channels=3, out_channels=1, base_channels=64).to(device)
-    mask_predictor.load_state_dict(torch.load('binary-mask/best_model.pth', map_location=device)['unet_state_dict'])
+    mask_predictor.load_state_dict(torch.load('binaryMask_best_model.pth', map_location=device)['unet_state_dict'])
     mask_predictor.eval()
-
+    
     styleCycleGAN = StyleGANModel().to(device)
-    styleCycleGAN.load_state_dict(torch.load('style-cycle-gan/best_model.pth', map_location=device))
+    styleCycleGAN.load_state_dict(torch.load('styleCycleGAN_best_model.pth', map_location=device))
     styleCycleGAN.eval()
-
+    
     pconvunet = PDUNet().to(device)
-    pconvunet.load_state_dict(torch.load('PConv-Unet/pdunet-outputs/kaggle/working/checkpoints/run3/best_model.pth', map_location=device)['unet_state_dict'])
+    pconvunet.load_state_dict(torch.load('PartialUNet_best_model.pth', map_location=device)['unet_state_dict'])
     pconvunet.eval()
-
+    
     partial_unet = PartialUNet(in_channels=3, out_channels=3).to(device)
-    partial_unet.load_state_dict(torch.load('PConvGAN-model/gan-outputs/checkpoints/run1/best_model.pth', map_location=device)['generator_state_dict'])
+    partial_unet.load_state_dict(torch.load('PConvGAN_best_model.pth', map_location=device)['generator_state_dict'])
     partial_unet.eval()
 
     return mask_predictor, styleCycleGAN, pconvunet, partial_unet
