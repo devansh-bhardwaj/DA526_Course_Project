@@ -1,7 +1,7 @@
 # DAS26 Course Project
 
 ## Project Overview
-This repository contains a Streamlit-based application with PyTorch dependencies for [briefly describe the project's purpose]. The project includes model comparison utilities, custom PyTorch models, and interactive visualization capabilities.
+This repository contains a Streamlit-based application with PyTorch dependencies for face-demasking with Partial Convolutions. The project includes model comparison utilities, custom PyTorch models, and interactive visualization capabilities.
 
 ## Installation
 
@@ -45,6 +45,14 @@ streamlit run streamlit_app.py
 
 This will start the application and automatically open it in your default web browser. If it doesn't open automatically, you can access it at `http://localhost:8501`.
 
+## Team 
+The members of team Kniffox are listed below :
+* Palthiya Laanith Chouhan - 210150014
+* Devansh Bhardwaj - 210150010
+* Harsh Raj - 210150012
+* Aditya Suryawanshi - 210150004
+* Pokala Rithuraj - 210150015
+* Thanish Bolla - 210150019
 
 ## Contributing
 
